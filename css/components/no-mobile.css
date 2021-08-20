@@ -30,8 +30,8 @@
   }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: landscape) {
   #no-landscape {
-    display: none;
+    display: show;
   }
 }
