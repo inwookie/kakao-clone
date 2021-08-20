@@ -18,9 +18,14 @@
   margin-top: 25px;
 }
 
-.icon-row-second {
+.icon-row__icon-last {
+  margin-left: -60px;
+}
+
+/* .icon-row-second {
   display: flex;
   margin-top: 25px;
+  justify-content: space-between;
 }
 .icon-row-second__icon {
   display: flex;
@@ -34,4 +39,4 @@
 
 .icon-row-second__icon span {
   margin-top: 25px;
-}
+} */
