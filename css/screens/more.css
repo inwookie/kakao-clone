@@ -14,16 +14,15 @@
 }
 
 .more-suggestions__title {
-  margin-bottom: 30px;
   margin-bottom: 25px;
 }
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +41,11 @@
 
 .more-suggestions__icon-image i {
   font-size: 30px;
+  color: white;
+}
+
+.blank {
+  background-color: white;
   color: white;
 }
 
