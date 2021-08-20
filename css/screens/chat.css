@@ -84,6 +84,14 @@
   border-top-left-radius: 0px;
 }
 
+.message__bubble-not-end {
+  margin-bottom: 7px;
+}
+
+.message__info-own-not-end {
+  margin-top: -19px;
+}
+
 .message__info {
   display: flex;
   align-items: flex-end;
