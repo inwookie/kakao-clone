@@ -1,3 +1,4 @@
+#no-mobile-small,
 #no-mobile {
   position: absolute;
   z-index: 99;
@@ -11,27 +12,14 @@
   font-size: 30px;
 }
 
-#no-landscape {
-  position: absolute;
-  z-index: 98;
-  height: 100vh;
-  background-color: var(--yellow);
-  width: 100vw;
-  display: flex;
-  top: 0;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-}
-
-@media screen and (min-width: 499px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   #no-mobile {
     display: none;
   }
 }
 
-@media screen and (orientation: landscape) {
-  #no-landscape {
-    display: show;
+@media screen and (min-width: 499px) {
+  #no-mobile-small {
+    display: none;
   }
 }
