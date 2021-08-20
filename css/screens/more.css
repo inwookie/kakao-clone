@@ -44,13 +44,13 @@
   color: white;
 }
 
-.more__red_dot {
+.icon-row__icon > .more__red_dot {
   color: tomato;
   display: flex;
-  font-size: 120px;
   position: absolute;
-  left: 195px;
-  top: 165px;
+  font-size: 120px;
+  margin-left: 45px;
+  margin-top: -45px;
   font-size: 55px;
   animation: appearRedDotAnimation 3s ease-in-out infinite;
 }

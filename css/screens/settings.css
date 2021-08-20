@@ -27,14 +27,14 @@
 
 .settings__notification {
   position: absolute;
-  left: 140px;
-  bottom: 165px;
+  margin-left: 117px;
+  margin-top: -18px;
   font-weight: 900;
 }
 
 .settings__notification-second {
   position: absolute;
-  left: 143px;
-  bottom: 102px;
+  margin-left: 120px;
+  margin-top: 2px;
   font-weight: 900;
 }
