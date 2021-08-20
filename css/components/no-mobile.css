@@ -11,7 +11,7 @@
   font-size: 30px;
 }
 
-#no-mobile-small {
+/* #no-mobile-small {
   position: absolute;
   z-index: 98;
   height: 111vh;
@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   font-size: 30px;
-}
+} */
 
 @media screen and (max-width: 500px) {
   #no-mobile {
@@ -30,8 +30,8 @@
   }
 }
 
-@media screen and (min-width: 499px) {
+/* @media screen and (min-width: 499px) {
   #no-mobile-small {
     display: none;
   }
-}
+} */
